@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 26024994}
   - component: {fileID: 26024993}
   m_Layer: 5
-  m_Name: WeaponSelect_btn (1)
+  m_Name: WeaponSelect07_btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,12 +157,12 @@ RectTransform:
   - {fileID: 616378522}
   - {fileID: 2088283423}
   m_Father: {fileID: 1610040275}
-  m_RootOrder: 3
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -335}
-  m_SizeDelta: {x: 380, y: 268}
+  m_AnchoredPosition: {x: 0, y: -360}
+  m_SizeDelta: {x: 401, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &26024993
 MonoBehaviour:
@@ -1247,7 +1247,7 @@ GameObject:
   - component: {fileID: 547623618}
   - component: {fileID: 547623617}
   m_Layer: 5
-  m_Name: WeaponSelect_btn (5)
+  m_Name: WeaponSelect04_btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1267,12 +1267,12 @@ RectTransform:
   - {fileID: 1297859181}
   - {fileID: 1198054321}
   m_Father: {fileID: 1610040275}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 237, y: 237}
-  m_SizeDelta: {x: 380, y: 268}
+  m_AnchoredPosition: {x: 255, y: 255}
+  m_SizeDelta: {x: 401, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &547623617
 MonoBehaviour:
@@ -1801,7 +1801,7 @@ GameObject:
   - component: {fileID: 722845549}
   - component: {fileID: 722845548}
   m_Layer: 5
-  m_Name: WeaponSelect_btn (2)
+  m_Name: 'WeaponSelect05_btn '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1821,12 +1821,12 @@ RectTransform:
   - {fileID: 533957275}
   - {fileID: 513777493}
   m_Father: {fileID: 1610040275}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 335, y: 0}
-  m_SizeDelta: {x: 380, y: 268}
+  m_AnchoredPosition: {x: 360, y: 0}
+  m_SizeDelta: {x: 401, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &722845548
 MonoBehaviour:
@@ -2033,7 +2033,7 @@ GameObject:
   - component: {fileID: 815613323}
   - component: {fileID: 815613322}
   m_Layer: 5
-  m_Name: WeaponSelect_btn
+  m_Name: WeaponSelect03_btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2053,12 +2053,12 @@ RectTransform:
   - {fileID: 237492009}
   - {fileID: 2100312483}
   m_Father: {fileID: 1610040275}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 335}
-  m_SizeDelta: {x: 380, y: 268}
+  m_AnchoredPosition: {x: 0, y: 360}
+  m_SizeDelta: {x: 401, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &815613318
 MonoBehaviour:
@@ -2435,7 +2435,7 @@ GameObject:
   - component: {fileID: 933261086}
   - component: {fileID: 933261085}
   m_Layer: 5
-  m_Name: WeaponSelect_btn (3)
+  m_Name: WeaponSelect01_btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2455,12 +2455,12 @@ RectTransform:
   - {fileID: 209648535}
   - {fileID: 1019990718}
   m_Father: {fileID: 1610040275}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -335, y: 0}
-  m_SizeDelta: {x: 380, y: 268}
+  m_AnchoredPosition: {x: -360, y: 0}
+  m_SizeDelta: {x: 401, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &933261085
 MonoBehaviour:
@@ -3156,7 +3156,7 @@ GameObject:
   - component: {fileID: 1245245461}
   - component: {fileID: 1245245460}
   m_Layer: 5
-  m_Name: WeaponSelect_btn (6)
+  m_Name: WeaponSelect08_btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3176,12 +3176,12 @@ RectTransform:
   - {fileID: 135983763}
   - {fileID: 104804138}
   m_Father: {fileID: 1610040275}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 135}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -237, y: -237}
-  m_SizeDelta: {x: 380, y: 268}
+  m_AnchoredPosition: {x: -255, y: -255}
+  m_SizeDelta: {x: 401, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1245245460
 MonoBehaviour:
@@ -3706,7 +3706,7 @@ GameObject:
   - component: {fileID: 1554447309}
   - component: {fileID: 1554447308}
   m_Layer: 5
-  m_Name: WeaponSelect_btn (7)
+  m_Name: WeaponSelect06_btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3726,12 +3726,12 @@ RectTransform:
   - {fileID: 91403526}
   - {fileID: 1551007813}
   m_Father: {fileID: 1610040275}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -135}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 237, y: -237}
-  m_SizeDelta: {x: 380, y: 268}
+  m_AnchoredPosition: {x: 255, y: -255}
+  m_SizeDelta: {x: 401, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1554447308
 MonoBehaviour:
@@ -3953,14 +3953,14 @@ RectTransform:
   m_Children:
   - {fileID: 2084620683}
   - {fileID: 720053981}
-  - {fileID: 815613317}
-  - {fileID: 26024992}
-  - {fileID: 722845547}
   - {fileID: 933261084}
   - {fileID: 2038372728}
+  - {fileID: 815613317}
   - {fileID: 547623616}
-  - {fileID: 1245245459}
+  - {fileID: 722845547}
   - {fileID: 1554447307}
+  - {fileID: 26024992}
+  - {fileID: 1245245459}
   m_Father: {fileID: 2128441821}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4019,7 +4019,7 @@ GameObject:
   - component: {fileID: 2038372730}
   - component: {fileID: 2038372729}
   m_Layer: 5
-  m_Name: WeaponSelect_btn (4)
+  m_Name: WeaponSelect02_btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4039,12 +4039,12 @@ RectTransform:
   - {fileID: 460529869}
   - {fileID: 902831795}
   m_Father: {fileID: 1610040275}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -237, y: 237}
-  m_SizeDelta: {x: 380, y: 268}
+  m_AnchoredPosition: {x: -255, y: 255}
+  m_SizeDelta: {x: 401, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2038372729
 MonoBehaviour:
@@ -4262,7 +4262,7 @@ RectTransform:
   m_GameObject: {fileID: 2084620682}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
   m_Children: []
   m_Father: {fileID: 1610040275}
   m_RootOrder: 0
