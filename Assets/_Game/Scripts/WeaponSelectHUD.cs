@@ -7,9 +7,18 @@ public class WeaponSelectHUD : MonoBehaviour
 {
     public Animator anim;
     private bool weaponWheelSelected = false;
-    public Image selectedItem;
-    public Sprite noImage;
+    public Image selectedWeapon;
     public static int weaponID;
+
+    public Sprite noImage;
+    public Sprite SMG;
+    public Sprite Shotgun;
+    public Sprite Rifle;
+    public Sprite Sniper;
+    public Sprite RPG;
+    public Sprite Grenade;
+    public Sprite Knife;
+    public Sprite Pistol;
 
     void Update()
     {
@@ -31,47 +40,63 @@ public class WeaponSelectHUD : MonoBehaviour
         switch (weaponID)
         {
             case 0: // nothing is selected
-                selectedItem.sprite = noImage;
+                selectedWeapon.sprite = noImage;
                 break;
-            case 1: // Rifle
-                Debug.Log("Rifle");
+            case 1: // SMG
+                Debug.Log("SMG");
                 // bring out weapon
                 // animation
+                // ui sprite
+                selectedWeapon.sprite = SMG;
                 // sound
                 break;
             case 2: // Shotgun
                 Debug.Log("Shotgun");
                 // animation
+                // ui sprite
+                selectedWeapon.sprite = Shotgun;
                 // sound
                 break;
-            case 3: // SMG
-                Debug.Log("SMG");
+            case 3: // Rifle
+                Debug.Log("Rifle");
                 // animation
+                // ui sprite
+                selectedWeapon.sprite = Rifle;
                 // sound
                 break;
             case 4: // Sniper
                 Debug.Log("Sniper");
                 // animation
+                // ui sprite
+                selectedWeapon.sprite = Sniper;
                 // sound
                 break;
-            case 5: // Grenade
+            case 5: // RPG
+                Debug.Log("RPG");
+                // animation
+                // ui sprite
+                selectedWeapon.sprite = RPG;
+                // sound
+                break;
+            case 6: // Grenade
                 Debug.Log("Grenade");
                 // animation
+                // ui sprite
+                selectedWeapon.sprite = Grenade;
                 // sound
                 break;
-            case 6: // nothing is selected
-                Debug.Log("");
+            case 7: // Knife
+                Debug.Log("Knife");
                 // animation
+                // ui sprite
+                selectedWeapon.sprite = Knife;
                 // sound
                 break;
-            case 7: // nothing is selected
-                Debug.Log("");
+            case 8: // Pistol
+                Debug.Log("Pistol");
                 // animation
-                // sound
-                break;
-            case 8: // nothing is selected
-                Debug.Log("");
-                // animation
+                // ui sprite
+                selectedWeapon.sprite = Pistol;
                 // sound
                 break;
         }

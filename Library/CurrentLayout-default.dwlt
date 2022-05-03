@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 331, y: 271}
   m_MaxSize: {x: 14001, y: 10021}
   vertical: 0
-  controlID: 107
+  controlID: 82
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
-  controlID: 153
+  controlID: 16
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 1
-  controlID: 154
+  controlID: 17
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,7 +318,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 155
+  controlID: 18
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -378,14 +378,14 @@ MonoBehaviour:
     - {fileID: 1230767059706170663, guid: 119865bc8b5d4d345b3144100d100dc4, type: 2}
     - {fileID: -6885021825588701870, guid: 8c4336cc03a67d14b8a6637ba181e52c, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1.0386952
+    - e00: 0.7572917
       e01: 0
       e02: 0
-      e03: -36.695564
+      e03: -15.2916565
       e10: 0
-      e11: 1.0386952
+      e11: 0.7572917
       e12: 0
-      e13: 165.52104
+      e13: 273.49478
       e20: 0
       e21: 0
       e22: 1
@@ -456,7 +456,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -32074
+  m_LastSelectedObjectID: 13452
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -578,9 +578,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 52340000
-      m_LastClickedID: 13394
-      m_ExpandedIDs: 6afbffff8c340000c0340000
+      m_SelectedIDs: 609bffff
+      m_LastClickedID: -25760
+      m_ExpandedIDs: 509cffff5ca0ffff6afbffff70330000ce330000f4330000043400001e340000523400007c3400008c34000094340000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -640,9 +640,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 579.8377, y: 309.07663, z: 6.5147095}
+    m_Target: {x: -0.46874356, y: 3.5145483, z: 0.19329333}
     speed: 2
-    m_Value: {x: 579.8377, y: 309.07663, z: 6.5147095}
+    m_Value: {x: -0.46874356, y: 3.5145483, z: 0.19329333}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -688,13 +688,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0912512, y: -0.09634434, z: 0.008870462, w: -0.99112386}
+    m_Target: {x: -0.19600198, y: -0.09924535, z: 0.019946752, w: -0.97537595}
     speed: 2
-    m_Value: {x: -0.09275054, y: -0.094843656, z: 0.008875793, w: -0.9911222}
+    m_Value: {x: -0.19590804, y: -0.10363236, z: 0.020828323, w: -0.9749086}
   m_Size:
-    m_Target: 359.8458
+    m_Target: 7.479927
     speed: 2
-    m_Value: 360.16583
+    m_Value: 7.452982
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -758,20 +758,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Game
+    - Assets/_Game/Materials
   m_ViewMode: 1
   m_StartGridSize: 82
   m_LastFolders:
-  - Assets/_Game
+  - Assets/_Game/Materials
   m_LastFoldersGridSize: 82
   m_LastProjectPath: D:\Game Development\Unity Projects\MacaspacJessica_P03
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 29}
-    m_SelectedIDs: 74350000
-    m_LastClickedID: 13684
-    m_ExpandedIDs: 000000006c3500006e3500007435000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 825b0000
+    m_LastClickedID: 23426
+    m_ExpandedIDs: 000000006c3500006e3500007235000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
