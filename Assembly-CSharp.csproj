@@ -67,6 +67,8 @@
     <Compile Include="Assets\Low Poly Guns\Scripts\GunView.cs" />
     <Compile Include="Assets\Low Poly Guns\Scripts\GunsMenu.cs" />
     <Compile Include="Assets\_Game\Scripts\AmmoDisplay.cs" />
+    <Compile Include="Assets\_Game\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\_Game\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\_Game\Scripts\WeaponSelectButton.cs" />
     <Compile Include="Assets\_Game\Scripts\WeaponSelectHUD.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

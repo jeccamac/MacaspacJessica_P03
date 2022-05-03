@@ -26,6 +26,7 @@ public class WeaponSelectHUD : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             weaponWheelSelected = !weaponWheelSelected;
+            Cursor.lockState = CursorLockMode.None;
         }
 
         if (weaponWheelSelected)
@@ -45,6 +46,7 @@ public class WeaponSelectHUD : MonoBehaviour
             case 1: // SMG
                 Debug.Log("SMG");
                 // bring out weapon
+                
                 // animation
                 // ui sprite
                 selectedWeapon.sprite = SMG;
