@@ -71,6 +71,7 @@
     <Compile Include="Assets\_Game\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\_Game\Scripts\WeaponSelectButton.cs" />
     <Compile Include="Assets\_Game\Scripts\WeaponSelectHUD.cs" />
+    <Compile Include="Assets\_Game\Scripts\WeaponSwitch.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
@@ -87,6 +88,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\M9_Knife\Materials\usershader.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">

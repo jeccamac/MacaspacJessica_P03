@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class AmmoDisplay : MonoBehaviour
 {
-    private int ammoCurrent;
-    private int ammoMax;
+    public int maxAmmo;
+    private int currentAmmo;
+    
 
     [SerializeField] GameObject weaponAmmo;
 }

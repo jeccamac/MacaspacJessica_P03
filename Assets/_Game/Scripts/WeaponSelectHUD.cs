@@ -20,8 +20,19 @@ public class WeaponSelectHUD : MonoBehaviour
     public Sprite Knife;
     public Sprite Pistol;
 
+    public GameObject weapons;
+    public WeaponSwitch weaponSwitch;
+
+    public void Start()
+    {
+        weapons = GameObject.Find("Weapons");
+        weaponSwitch = weapons.GetComponent<WeaponSwitch>();
+    }
+
     void Update()
     {
+        int previousSelectedWeapon = weaponSwitch.currentWeapon;
+
         // toggle weaponSelectHUD
         if (Input.GetKeyDown(KeyCode.Tab))
         {
@@ -32,7 +43,7 @@ public class WeaponSelectHUD : MonoBehaviour
         if (weaponWheelSelected)
         {
             anim.SetBool("OpenWeaponWheel", true);
-        } 
+        }
         else
         {
             anim.SetBool("OpenWeaponWheel", false);
@@ -44,63 +55,66 @@ public class WeaponSelectHUD : MonoBehaviour
                 selectedWeapon.sprite = noImage;
                 break;
             case 1: // SMG
-                Debug.Log("SMG");
-                // bring out weapon
-                
-                // animation
-                // ui sprite
-                selectedWeapon.sprite = SMG;
-                // sound
+                //Debug.Log("SMG");
+                weaponSwitch.currentWeapon = 0; // bring out weapon
+                                                // animation
+                selectedWeapon.sprite = SMG; // ui sprite
+                                             // sound
                 break;
             case 2: // Shotgun
-                Debug.Log("Shotgun");
-                // animation
-                // ui sprite
-                selectedWeapon.sprite = Shotgun;
-                // sound
+                //Debug.Log("Shotgun");
+                weaponSwitch.currentWeapon = 1; // bring out weapon
+                                                // animation
+                selectedWeapon.sprite = Shotgun; // ui sprite
+                                                 // sound
                 break;
             case 3: // Rifle
-                Debug.Log("Rifle");
-                // animation
-                // ui sprite
-                selectedWeapon.sprite = Rifle;
-                // sound
+                //Debug.Log("Rifle");
+                weaponSwitch.currentWeapon = 2; // bring out weapon
+                                                // animation
+                selectedWeapon.sprite = Rifle; // ui sprite
+                                               // sound
                 break;
             case 4: // Sniper
-                Debug.Log("Sniper");
-                // animation
-                // ui sprite
-                selectedWeapon.sprite = Sniper;
-                // sound
+                //Debug.Log("Sniper");
+                weaponSwitch.currentWeapon = 3; // bring out weapon
+                                                // animation
+                selectedWeapon.sprite = Sniper; // ui sprite
+                                                // sound
                 break;
             case 5: // RPG
-                Debug.Log("RPG");
-                // animation
-                // ui sprite
-                selectedWeapon.sprite = RPG;
-                // sound
+                //Debug.Log("RPG");
+                weaponSwitch.currentWeapon = 4; // bring out weapon
+                                                // animation
+                selectedWeapon.sprite = RPG; // ui sprite
+                                             // sound
                 break;
             case 6: // Grenade
-                Debug.Log("Grenade");
-                // animation
-                // ui sprite
-                selectedWeapon.sprite = Grenade;
-                // sound
+                //Debug.Log("Grenade");
+                weaponSwitch.currentWeapon = 5; // bring out weapon
+                                                // animation
+                selectedWeapon.sprite = Grenade; // ui sprite
+                                                 // sound
                 break;
             case 7: // Knife
-                Debug.Log("Knife");
-                // animation
-                // ui sprite
-                selectedWeapon.sprite = Knife;
-                // sound
+                //Debug.Log("Knife");
+                weaponSwitch.currentWeapon = 6; // bring out weapon
+                                                // animation
+                selectedWeapon.sprite = Knife; // ui sprite
+                                               // sound
                 break;
             case 8: // Pistol
-                Debug.Log("Pistol");
-                // animation
-                // ui sprite
-                selectedWeapon.sprite = Pistol;
-                // sound
+                //Debug.Log("Pistol");
+                weaponSwitch.currentWeapon = 7; // bring out weapon
+                                                // animation
+                selectedWeapon.sprite = Pistol; // ui sprite
+                                                // sound
                 break;
+        }
+
+        if (previousSelectedWeapon != weaponSwitch.currentWeapon)
+        {
+            weaponSwitch.SelectWeapon();
         }
     }
 }
