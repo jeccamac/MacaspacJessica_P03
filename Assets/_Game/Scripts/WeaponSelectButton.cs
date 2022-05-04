@@ -10,6 +10,8 @@ public class WeaponSelectButton : MonoBehaviour
     private Animator anim;
     public string itemName;
     public TextMeshProUGUI itemText;
+    public Sprite ammo;
+    public Image itemAmmo;
     public Image selectedItem;
     private bool selected = false;
     public Sprite icon;
@@ -26,6 +28,7 @@ public class WeaponSelectButton : MonoBehaviour
         {
             selectedItem.sprite = icon;
             itemText.text = itemName;
+            itemAmmo.sprite = ammo;
         }
     }
 
@@ -47,11 +50,13 @@ public class WeaponSelectButton : MonoBehaviour
     {
         anim.SetBool("Hover", true);
         itemText.text = itemName;
+        itemAmmo.sprite = ammo;
     }
 
     public void HoverExit()
     {
         anim.SetBool("Hover", false);
         itemText.text = "";
+        itemAmmo.sprite = null;
     }
 }
