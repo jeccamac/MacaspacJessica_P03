@@ -15,10 +15,12 @@ public class WeaponSelectButton : MonoBehaviour
     public Image selectedItem;
     private bool selected = false;
     public Sprite icon;
+    private AudioSource sndEquip;
 
     void Start()
     {
         anim = GetComponent<Animator>();
+        sndEquip = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -37,6 +39,7 @@ public class WeaponSelectButton : MonoBehaviour
         selected = true;
         anim.SetBool("Select", true);
         WeaponSelectHUD.weaponID = Id;
+        sndEquip.Play();
     }
 
     public void Deselected()
